@@ -13,7 +13,7 @@ repositories {
     mavenCentral()
 }
 
-def runeLiteVersion = '1.10.33' 
+def runeLiteVersion = 'latest.release' 
 
 def pluginMainClass = 'com.thralltracker.ThrallDamageTrackerPlugin'
 
@@ -33,7 +33,7 @@ version = '1.0.0'
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
-    options.release.set(17)
+    options.release.set(11)
 }
 
 tasks.register('run', JavaExec) {
