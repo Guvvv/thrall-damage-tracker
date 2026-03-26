@@ -15,7 +15,7 @@ repositories {
 
 def runeLiteVersion = '1.10.33' 
 
-def pluginMainClass = 'com.thralltracker.thralltracker'
+def pluginMainClass = 'com.thralltracker.thralltracker.ThrallDamageTrackerPlugin'
 
 dependencies {
     compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
